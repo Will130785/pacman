@@ -1,0 +1,123 @@
+/* GLOBAL RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* Set root font */
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.game-status-display {
+    height: 200px;
+    font-size: 20px;
+    color: red;
+}
+
+.game-container {
+    height: 566px;
+    width: 566px;
+    border: solid black;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    padding-top: 50px;
+    /* margin: 50px auto; */
+}
+
+.game-container div {
+    width: 20px;
+    height: 20px;
+}
+
+.wall {
+    background-color: blue;
+}
+
+.pac-man {
+    background-color: #ffff00 !important;
+    border-radius: 10px;
+}
+
+.blinky {
+    background-color: #ff0000 !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.pinky {
+    background-color: #ffb8ff !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.inky {
+    background-color: #00ffff !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.clyde {
+    background-color: #ffb852 !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.tunnel {
+    background-color: black;
+}
+
+.pac-dot {
+    background-color: #ffd900;
+    border-radius: 50%;
+    border: 7px solid black;
+}
+
+.power-pellet {
+    background-color: #ffd900;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+.ghost-lair {
+    background-color: black;
+}
+
+.game-stats {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.game-stats h2 {
+    color: red;
+    margin-bottom: 10px;
+    font-size: 20px;;
+}
+
+.game-stats p {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.life {
+    width: 20px;
+    height: 20px;
+    background-color: #ffd900;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+}
